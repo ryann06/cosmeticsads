@@ -1,0 +1,138 @@
+#title{
+    background-color: #e17055;
+    color: white;
+}
+/* feature section */
+#features{
+    font-size: 1.5rem;
+    padding: 7% 15%;
+    background-color: #FFF;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+/* header section */
+h1{
+    font-family: 'Montserrat';
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: 'Montserrat';
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Montserrat';
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+body{
+    font-family: 'Montserrat';
+}
+p{
+    color: #8F8F8F;
+}
+/* icon section */
+.icon{
+    color: #EF8172;
+}
+.icon:hover{
+    color: #e17055;
+}
+/*nav bar*/
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light';
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+}
+
+/*download buttons*/
+.btn{
+    margin: 5% 3% 5% 0;
+}
+
+/*title img*/
+.title-image{
+    width: 60%;
+    position: relative;
+    left: 35%;
+}
+
+/* testimonial section */
+#testimonials{
+    text-align: center;
+    background-color: #EF8172;
+    color: #FFF;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #EF8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* pricing section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+       position: static;
+    }
+}
+/* CTA section */
+#cta{
+    background-color: #e17055;
+    padding: 7% 15%;
+    text-align: center;
+    color: white;
+}
+
+.cta-heading{
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+/* footer section */
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.social-icon{
+    margin: 20px 10px;
+}
